@@ -7,7 +7,8 @@ body{
     font-family: var(--bodyFont);
     background: var(--light);
     background-repeat: no-repeat;
-    color: var(--light);
+    background-image: url(../images/bg.png);
+    color: var(--darkblue);
 }
 h3{
     font-size: var(--h3-fontSize);
