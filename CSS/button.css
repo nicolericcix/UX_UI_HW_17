@@ -1,0 +1,13 @@
+.btnPrimary{
+    background-color: var(--Primary);
+    padding: 10px;
+    border-radius: 4px;
+    color: var(--White);
+    text-decoration: none;
+    font-size: var(--button-font);
+    border: none;
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+}
+

@@ -1,0 +1,11 @@
+footer{
+    text-align: center;
+    margin-top: 200px;
+    background: var(--Primary-gradient-rev);
+    padding: 30px;
+}
+
+.footerTile{
+    margin-bottom: 12px;
+    
+}
