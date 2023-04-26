@@ -1,18 +1,69 @@
 @import url(./variables.css);
+@import url(./button.css);
+@import url(./card.css);
+@import url(./footer.css);
 body{
-        margin: 0;
-        font-family: var(--bodyFont);
+    margin: 0;
+    font-family: var(--bodyFont);
+    background: var(--light);
+    background-repeat: no-repeat;
+    color: var(--light);
+}
+h3{
+    font-size: var(--h3-fontSize);
+}
+h4{
+    font-size: var(--h4-fontSize);
+}
+h5{
+    font-size: var(--h5-fontSize);
 }
 .topNav{
     display: flex;
-    background-color: var(--light);
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1320px;
+    margin: auto;
+}
+.logo{
+    height: 48px;
 }
 nav a{
     text-decoration: none;
-    color: var(--darkblue);
-    padding: 20px;
+    color: var(--Primary);
+    padding: 10px;
 }
 
 nav a:hover{
-    color: var(--darkblue);
- }
+    color: var(--Primary);
+}
+
+nav a.active{
+    color: var(--Secondary-dark);
+}
+.hero{
+    padding: 80px 92px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1320px;
+    justify-content: center;
+    margin: auto;
+    column-gap: 20px;
+}
+.headShot{
+    width: 365px;
+    padding: 34px 40px;
+}
+
+.avatar{
+    width: 100%;
+}
+.heroContent{
+    max-width: 613px;
+}
+
+.projects h4{
+    text-align: center;
+}

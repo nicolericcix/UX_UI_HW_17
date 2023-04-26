@@ -6,6 +6,20 @@
     --darkblue: #0B0622;
     --primaryblue: #444B6E;
     --extralight: #FAF7F1; 
+
+
+        /* font */
+        --bodyFont:'Montserrat', sans-serif;
+        --h1-fontSize: 3rem;
+        --h2-fontSize: 3rem;
+        --h3-fontSize: 3rem;
+        --h4-fontSize: 2.125rem;
+        --h5-fontSize: 1.5rem;
+        --button-font: 0.875rem;
+        --body-small-fontSize: 0.875rem;
+    
+        --body-max-width: 1320px;
+    
 }
 
 
